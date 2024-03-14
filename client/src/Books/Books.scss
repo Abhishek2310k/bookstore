@@ -1,0 +1,81 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding-bottom: 50px;
+    h1 {
+        font-family: "Gentium Book Plus", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .books {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 150px;
+        // flex-direction: column;
+        .book {
+            padding: 20px;
+            border: 0.7px solid lightgray;
+            display: flex;
+            border-radius: 8px;
+            flex-direction: column;
+            height: 500px;
+            width: 350px;
+            h1 {
+                font-weight: 400;
+            }
+            img {
+                width: 250px;
+                height: 300px;
+                background-color: aqua;
+            }
+            justify-content: space-between;
+            align-items: center;
+            h1 {
+                margin: 0;
+                padding: 0;
+            }
+            p {
+                margin: 0;
+                padding: 0;
+            }
+            .delete {
+                background: white;
+                padding: 10px;
+                border-radius: 8px;
+                border: 0.7px coral solid;
+                color:coral;
+                cursor: pointer;
+            }
+            .update {
+                background: white;
+                padding: 10px;
+                border-radius: 8px;
+                border: 0.7px rgb(139,139,234) solid;
+                color: rgb(139,139,234);
+                Link {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .add_book {
+        padding: 10px;
+        font-size: 16px;
+        background-color: white;
+        border: 0.7px solid cornflowerblue;
+        color: cornflowerblue;
+        border-radius: 8px;
+        Link {
+            text-decoration: none;
+        }
+        cursor: pointer;
+    }
+    .add_book:hover {
+        background-color: cornflowerblue;
+        color: white;
+    }
+}

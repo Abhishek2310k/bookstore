@@ -1,0 +1,47 @@
+.signup {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("https://imgs.search.brave.com/z93xGlUEXkJaWVQfQITOIBC70DUW1oDiU6n7ddf7SQU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/MTYzMzA2ODI1NDYt/MjQ2OGIyZDhkZDE3/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4Tm54OFlt/OXZhM05vYjNCOFpX/NThNSHg4TUh4OGZE/QT0");
+    background-size: cover;
+    h1{
+        color: #3072E8;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        border: 0.7px solid lightgray;
+        border-radius: 8px;
+        background-color: rgba(0,0,0,0.2);
+        backdrop-filter: blur(100px);
+        input {
+            font-size: 16px;
+            padding: 10px;
+            border: 0.7px solid lightgray;
+            border-radius: 8px;
+            background-color: rgba(0,0,0,0.1);
+            backdrop-filter: blur(100px);
+            color: white;
+        }
+        input:focus{
+            outline-width: 0;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            border: 0.7px solid cornflowerblue;
+            background-color: white;
+            color: cornflowerblue;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        button:hover {
+            color: white;
+            background-color: cornflowerblue;
+        }
+    }
+}
